@@ -1,0 +1,27 @@
+import personas.*
+
+test "si asigno una referencia a otra ambas apuntan al mismo objeto" {
+	const alumno = new Persona("luciano", 23)
+	const luciano = alumno
+	assert.that(alumno === luciano)
+}
+
+test "si asigno una referencia a otra ambas son iguales" {
+	const alumno = new Persona("luciano", "Centenera 83")
+	const luciano = alumno
+	// == y equals son equivalentes, son dos versiones diferentes
+	// ==     es más un operador matemático (como el +, el -, etc.)
+	// equals es más un mensaje a un objeto
+	assert.that(alumno == luciano)
+	assert.that(alumno.equals(luciano))
+}
+
+test "dos objetos domicilio distintos pero con la misma dirección son iguales" {
+	const chiara = new Persona("Chiara", "Nazca 3143")
+	const melina = new Persona("Melina", "Nazca 3143") 
+	console.println("ID domicilio Chiara " + chiara.domicilio().identity())
+	console.println("ID domicilio Melina " + melina.domicilio().identity())
+	assert.notThat(chiara.domicilio() === melina.domicilio())
+	assert.that(chiara.vivenJuntosCon(melina))
+}
+

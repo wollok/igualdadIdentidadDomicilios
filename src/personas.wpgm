@@ -1,0 +1,10 @@
+import personas.*
+
+program mainPersonas {
+
+	const chiara = new Persona("Chiara", "Nazca 3143")
+	const melina = new Persona("Melina", "Nazca 3143") 
+
+	console.println(chiara)
+	console.println(melina)
+}
