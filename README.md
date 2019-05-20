@@ -1,4 +1,7 @@
 # Identidad vs. igualdad en domicilios de personas
+ 
+[![Build Status](https://travis-ci.org/wollok/igualdadIdentidadDomicilios.svg?branch=master)](https://travis-ci.org/wollok/igualdadIdentidadDomicilios)
+
 
 <img src="img/address.png" height="150" width="150">
 
