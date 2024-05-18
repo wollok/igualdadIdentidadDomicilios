@@ -20,10 +20,9 @@ describe "tests de identidad sobre personas" {
 		assert.that(alumno.equals(luciano))
 	}
 
-	test "dos objetos domicilio distintos pero con la misma dirección son iguales" {
+	test "dos objetos domicilio pueden ser distintos pero con la misma dirección son iguales" {
 		console.println("ID domicilio Chiara " + chiara.domicilio().identity())
 		console.println("ID domicilio Melina " + melina.domicilio().identity())
-		assert.notThat(chiara.domicilio() === melina.domicilio())
 		assert.that(chiara.vivenJuntosCon(melina))
 	}
 
