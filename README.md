@@ -1,6 +1,6 @@
 # Identidad vs. igualdad en domicilios de personas
  
-[![Build Status](https://travis-ci.org/wollok/igualdadIdentidadDomicilios.svg?branch=master)](https://travis-ci.org/wollok/igualdadIdentidadDomicilios)
+[![Build Status](https://github.com/wollok/igualdadIdentidadDomicilios/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/igualdadIdentidadDomicilios/actions/workflows/ci.yml)
 
 
 <img src="img/address.png" height="150" width="150">
